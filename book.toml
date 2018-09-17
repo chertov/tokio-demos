@@ -4,5 +4,15 @@ multilingual = false
 src = "src"
 title = "Tokio demos"
 
+[build]
+build-dir = "docs"
+create-missing = true
+preprocess = ["links", "index"]
+
+
+[output.html]
+curly-quotes = true
+google-analytics = "UA-40898654-2"
+
 [output.html.playpen]
 editable = true

@@ -1,0 +1,8 @@
+[book]
+authors = ["chertov"]
+multilingual = false
+src = "src"
+title = "Tokio demos"
+
+[output.html.playpen]
+editable = true
